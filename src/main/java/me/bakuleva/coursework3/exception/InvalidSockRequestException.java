@@ -1,7 +1,8 @@
 package me.bakuleva.coursework3.exception;
 
-public class InvalidSockException extends RuntimeException{
-    public InvalidSockException(String message) {
+public class InvalidSockRequestException extends RuntimeException{
+    public InvalidSockRequestException(String message) {
         super(message);
     }
 }
+
