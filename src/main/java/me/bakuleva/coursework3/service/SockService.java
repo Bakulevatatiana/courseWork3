@@ -73,7 +73,7 @@ public class SockService {
             throw new InvalidSockRequestException("Колличество должно быть больше 0");
 
         }
-        if (sockRequest.getQuantity() < 0 || sockRequest.getQuantity() > 100) {
+        if (sockRequest.getCottonPercentage() < 0 || sockRequest.getCottonPercentage() > 100) {
             throw new InvalidSockRequestException("Должен быть от 0 до 100");
 
         }
