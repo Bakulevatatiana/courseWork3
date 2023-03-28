@@ -1,6 +1,6 @@
-package me.bakuleva.coursework3;
+package me.bakuleva.coursework3.model;
 
 public enum Color {
-    
+
     RED,BLUE,GREEN;
 }
